@@ -129,7 +129,7 @@ pluto_reboot reset
 * *Cause:* `loadlibrary` cannot find the header files.
 * *Fix:* Verify the `addpath` command in the MATLAB script points to the folder containing `ad9361.h` and `libiio.h`.
 
-**MATLAB refuses to generate an sdrrx component for your PLUTO+
+**MATLAB refuses to generate an sdrrx component for your PLUTO+**
 * *Cause:* The firmware was likely flashed incorrectly for the PLUTO+
 * *Fix:* Run `fw_printenv mode` when SSHing into the SDR. It should say "mode=2r2t". Additionally, running `fw_printenv attr_val` should say "attr_val=ad9361". If they don't say this, repeat the firmware installation process carefully.
 
