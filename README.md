@@ -35,8 +35,9 @@ MATLAB requires these underlying libraries to communicate with the SDR hardware 
 * **Phased Array System Toolbox**
 * **Signal Processing Toolbox**
 
-### 3. GNU Radio (Transmitter Pipeline) **GNU Radio Companion** (tested with v3.10.12) - for other PC
+### 3. GNU Radio (Transmitter Pipeline) (tested with v3.10.12) - for other PC
 * **gr-iio** (Standard `iio` blocks for PlutoSDR Sink).
+* If using windows, other drivers may be required for SDR communication
 
 
 
